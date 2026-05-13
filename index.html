@@ -1197,9 +1197,9 @@
       <div style="margin-bottom:11px">
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:3px">
           <div style="width:6px;height:6px;border-radius:50%;background:#a855f7;flex-shrink:0"></div>
-          <span style="font-size:11.5px;font-weight:700;color:#1c1c1e">Motion UX Design Group</span>
+          <span style="font-size:13px;font-weight:700;color:#1c1c1e">Motion UX Design Group</span>
         </div>
-        <div style="font-size:10.5px;color:#3c3c43;line-height:1.58;padding-left:12px">
+        <div style="font-size:12px;color:#3c3c43;line-height:1.58;padding-left:12px">
           Participo en este grupo emergente de iniciativas con Rive. Propuse sustituir el PPT por HTML generado con Claude Code → presentaciones personalizadas por cliente (Samsung, IKEA), aprovechando la IA como herramienta de creación.
         </div>
       </div>
@@ -1207,9 +1207,9 @@
       <div style="margin-bottom:11px">
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:3px">
           <div style="width:6px;height:6px;border-radius:50%;background:#f59e0b;flex-shrink:0"></div>
-          <span style="font-size:11.5px;font-weight:700;color:#1c1c1e">Jornadas Puertas Abiertas · Málaga</span>
+          <span style="font-size:13px;font-weight:700;color:#1c1c1e">Jornadas Puertas Abiertas · Málaga</span>
         </div>
-        <div style="font-size:10.5px;color:#3c3c43;line-height:1.58;padding-left:12px">
+        <div style="font-size:12px;color:#3c3c43;line-height:1.58;padding-left:12px">
           «Crea tu superhéroe» — diseñé y desarrollé este proyecto de IA íntegramente para las jornadas de mayo 2026. Genera prompts listos para IA generativa. Privacy-friendly: sin BD, sin imágenes de menores.<br>
           <a href="https://isa-correa.github.io/superhero/" target="_blank" style="color:#007aff;font-weight:600;text-decoration:none">ver proyecto →</a>
         </div>
@@ -1218,9 +1218,9 @@
       <div>
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:3px">
           <div style="width:6px;height:6px;border-radius:50%;background:#10b981;flex-shrink:0"></div>
-          <span style="font-size:11.5px;font-weight:700;color:#1c1c1e">MKT AI Hub</span>
+          <span style="font-size:13px;font-weight:700;color:#1c1c1e">MKT AI Hub</span>
         </div>
-        <div style="font-size:10.5px;color:#3c3c43;line-height:1.58;padding-left:12px">
+        <div style="font-size:12px;color:#3c3c43;line-height:1.58;padding-left:12px">
           Me contactaron <strong style="color:#1c1c1e">Francis Mellado</strong> <span style="color:#1c1c1e">(Marketing Engagement Specialist)</span> y <strong style="color:#1c1c1e">Salvador Merchán Galiano</strong> <span style="color:#1c1c1e">(Marketing Engagement Manager)</span> tras ver mis trabajos. Estoy co-creando con ellos una nueva estrategia para reemplazar PPTs por experiencias con código (vibe-code) en presentaciones a clientes.
         </div>
       </div>
@@ -2447,7 +2447,7 @@
   </div>
 
   <!-- COURSES FINDER WINDOW -->
-  <div class="window" id="win-courses" style="width:760px;height:460px;top:120px;left:220px">
+  <div class="window" id="win-courses" style="width:660px;height:560px;top:120px;left:220px">
     <div class="win-titlebar" onmousedown="startDrag(event,'win-courses')">
       <div class="win-buttons">
         <button class="win-btn close" onclick="closeWindow('win-courses')"><span class="btn-icon">✕</span></button>
@@ -2581,6 +2581,7 @@
         </div>
       </div>
     </div>
+    <div class="win-resize">⌟</div>
     <div class="win-edge win-edge-n"  data-dir="n"></div>
     <div class="win-edge win-edge-s"  data-dir="s"></div>
     <div class="win-edge win-edge-w"  data-dir="w"></div>
@@ -2592,7 +2593,7 @@
   </div>
 
   <!-- CERTS FINDER WINDOW -->
-  <div class="window" id="win-certs" style="width:700px;height:400px;top:155px;left:270px">
+  <div class="window" id="win-certs" style="width:700px;height:560px;top:155px;left:270px">
     <div class="win-titlebar" onmousedown="startDrag(event,'win-certs')">
       <div class="win-buttons">
         <button class="win-btn close" onclick="closeWindow('win-certs')"><span class="btn-icon">✕</span></button>
@@ -2638,6 +2639,18 @@
         </div>
         <div class="finder-icons-area">
           <div class="finder-icons-grid">
+            <div class="cert-file" onclick="document.getElementById('cert-pm-detail').style.display='flex'" style="cursor:pointer">
+              <svg class="cert-file-icon" viewBox="0 0 52 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4,0 H36 L50,13 V62 Q50,66 46,66 H4 Q0,66 0,62 V4 Q0,0 4,0 Z" fill="#FDFCFB"/>
+                <path d="M36,0 L50,13 H40 Q36,13 36,9 V0 Z" fill="#E2DED8"/>
+                <rect x="10" y="13" width="32" height="28" rx="6" fill="#02B3E4"/>
+                <text x="26" y="24" font-family="-apple-system,Helvetica Neue,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">PM</text>
+                <text x="26" y="35" font-family="-apple-system,Helvetica Neue,sans-serif" font-size="7.5" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="middle" dominant-baseline="middle">2026</text>
+                <rect x="12" y="48" width="22" height="2" rx="1" fill="#D8D4CE"/>
+                <rect x="12" y="53" width="15" height="2" rx="1" fill="#D8D4CE"/>
+              </svg>
+              <span class="cert-file-label">AI Product Manager · Udacity</span>
+            </div>
             <div class="cert-file" onclick="document.getElementById('cert-pd-detail').style.display='flex'" style="cursor:pointer">
               <svg class="cert-file-icon" viewBox="0 0 52 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4,0 H36 L50,13 V62 Q50,66 46,66 H4 Q0,66 0,62 V4 Q0,0 4,0 Z" fill="#FDFCFB"/>
@@ -2650,18 +2663,6 @@
               </svg>
               <span class="cert-file-label">Product Design 2026</span>
             </div>
-            <div class="cert-file" onclick="document.getElementById('cert-pm-detail').style.display='flex'" style="cursor:pointer">
-              <svg class="cert-file-icon" viewBox="0 0 52 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4,0 H36 L50,13 V62 Q50,66 46,66 H4 Q0,66 0,62 V4 Q0,0 4,0 Z" fill="#FDFCFB"/>
-                <path d="M36,0 L50,13 H40 Q36,13 36,9 V0 Z" fill="#E2DED8"/>
-                <rect x="10" y="13" width="32" height="28" rx="6" fill="#02B3E4"/>
-                <text x="26" y="24" font-family="-apple-system,Helvetica Neue,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">PM</text>
-                <text x="26" y="35" font-family="-apple-system,Helvetica Neue,sans-serif" font-size="7.5" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="middle" dominant-baseline="middle">2026</text>
-                <rect x="12" y="48" width="22" height="2" rx="1" fill="#D8D4CE"/>
-                <rect x="12" y="53" width="15" height="2" rx="1" fill="#D8D4CE"/>
-              </svg>
-              <span class="cert-file-label">PM Nanodegree · Udacity</span>
-            </div>
           </div>
         </div>
       </div>
@@ -2670,10 +2671,15 @@
       <div id="cert-pm-detail" style="display:none;position:absolute;inset:0;background:rgba(0,0,0,0.25);z-index:20;align-items:center;justify-content:center;border-radius:0 0 10px 10px">
         <div style="background:#fff;border-radius:10px;width:460px;max-height:88%;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.22)">
           <div style="padding:12px 16px;border-bottom:1px solid rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:#fff;z-index:1;border-radius:10px 10px 0 0">
-            <span style="font-size:13.5px;font-weight:600;color:var(--text)">Product Manager Nanodegree — Udacity 2026</span>
+            <span style="font-size:13.5px;font-weight:600;color:var(--text)">AI Product Manager Nanodegree — Udacity 2026</span>
             <button onclick="document.getElementById('cert-pm-detail').style.display='none'" style="width:20px;height:20px;border-radius:50%;background:#ff5f57;border:none;cursor:pointer;font-size:10px;font-weight:700;color:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;line-height:1">✕</button>
           </div>
           <div style="padding:16px;display:flex;flex-direction:column;gap:8px">
+            <a href="https://www.udacity.com/certificate/e/eef61f76-37fa-11f1-b2f4-7716b11d5019" target="_blank" style="display:flex;align-items:center;gap:8px;background:#f0f8ff;border:1px solid #c7e0f4;border-radius:8px;padding:9px 12px;text-decoration:none;color:#0064d7;font-size:12px;font-weight:600">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Ver certificado oficial · Udacity
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto;opacity:0.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
             <details class="lume-accordion">
               <summary>Descripción <svg class="acc-arrow" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></summary>
               <div class="lume-accordion-body">
@@ -2683,7 +2689,54 @@
             <details class="lume-accordion">
               <summary>Aprendizaje <svg class="acc-arrow" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></summary>
               <div class="lume-accordion-body">
-                <p>Identificación de casos de negocio donde la IA aporta valor real, integración de capacidades de machine learning y modelos generativos en la estrategia de producto, definición de KPIs y métricas adaptadas a productos con componente de IA, diseño de prototipos centrados en el usuario con restricciones técnicas de ingeniería, construcción y comunicación de roadmaps para conseguir el buy-in de stakeholders, y coordinación con equipos cross-funcionales durante todo el ciclo de desarrollo y lanzamiento.</p>
+                <div style="display:flex;flex-direction:column;gap:10px;font-size:12.5px;color:var(--text)">
+
+                  <div>
+                    <div style="font-size:10px;font-weight:700;color:#8e8e93;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:4px">Módulo 1 · IA en el negocio</div>
+                    <ul style="margin:0;padding-left:16px;line-height:1.6;color:#3c3c43">
+                      <li>Identificar cuándo la IA es la solución correcta frente a otras tecnologías</li>
+                      <li>Tipos de ML (supervisado, no supervisado, por refuerzo) y cuándo aplicar cada uno</li>
+                      <li>Evaluar la viabilidad técnica y el ROI de un caso de uso IA antes de comprometer recursos</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div style="font-size:10px;font-weight:700;color:#8e8e93;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:4px">Módulo 2 · Definición del producto IA</div>
+                    <ul style="margin:0;padding-left:16px;line-height:1.6;color:#3c3c43">
+                      <li>Formular el problema en términos de datos: qué datos se necesitan, qué modelo y qué métrica objetivo</li>
+                      <li>Estrategia de datos: calidad, etiquetado, sesgos y representatividad del dataset</li>
+                      <li>Distinguir entre NLP, visión por computador y sistemas de recomendación para elegir el enfoque correcto</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div style="font-size:10px;font-weight:700;color:#8e8e93;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:4px">Módulo 3 · Planificación y roadmap</div>
+                    <ul style="margin:0;padding-left:16px;line-height:1.6;color:#3c3c43">
+                      <li>Priorizar features con componente IA teniendo en cuenta dependencias técnicas y disponibilidad de datos</li>
+                      <li>Definir requirements y criterios de aceptación para equipos de datos e ingeniería</li>
+                      <li>Construir y comunicar roadmaps orientados a conseguir el buy-in de stakeholders</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div style="font-size:10px;font-weight:700;color:#8e8e93;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:4px">Módulo 4 · Evaluación y métricas IA</div>
+                    <ul style="margin:0;padding-left:16px;line-height:1.6;color:#3c3c43">
+                      <li>KPIs específicos de productos IA: precisión, recall, F1-score, latencia y model drift</li>
+                      <li>Monitorización continua y detección de degradación del modelo en producción</li>
+                      <li>Interpretar resultados de experimentos A/B aplicados a modelos</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div style="font-size:10px;font-weight:700;color:#8e8e93;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:4px">Módulo 5 · Ética y responsabilidad</div>
+                    <ul style="margin:0;padding-left:16px;line-height:1.6;color:#3c3c43">
+                      <li>Detectar y mitigar sesgos algorítmicos en datos y modelos</li>
+                      <li>Principios de fairness, transparencia y explicabilidad (XAI)</li>
+                      <li>Consideraciones de regulación y compliance en productos con IA</li>
+                    </ul>
+                  </div>
+
+                </div>
               </div>
             </details>
           </div>
@@ -2714,6 +2767,7 @@
         </div>
       </div>
     </div>
+    <div class="win-resize">⌟</div>
     <div class="win-edge win-edge-n"  data-dir="n"></div>
     <div class="win-edge win-edge-s"  data-dir="s"></div>
     <div class="win-edge win-edge-w"  data-dir="w"></div>
