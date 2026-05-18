@@ -1662,6 +1662,14 @@
               <span class="fb-badge" style="font-size:9.5px;font-weight:600;background:#af52de20;color:#af52de;border-radius:4px;padding:1px 5px">FY26</span>
             </div>
           </div>
+          <div class="fb-item" id="fb-laura" onclick="showFbConv('laura')">
+            <div style="width:36px;height:36px;border-radius:50%;background:#ff375f;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;flex-shrink:0">LL</div>
+            <div style="overflow:hidden">
+              <div class="fb-name" style="font-size:13px;font-weight:600;color:#1c1c1e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Laura López</div>
+              <div class="fb-sub" style="font-size:11px;color:#8e8e93;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Digital Marketing Manager · BBVA Digital Banks</div>
+              <span class="fb-badge" style="font-size:9.5px;font-weight:600;background:#ff375f20;color:#ff375f;border-radius:4px;padding:1px 5px">FY26</span>
+            </div>
+          </div>
           <div class="fb-item fb-active" id="fb-elena" onclick="showFbConv('elena')">
             <div style="width:36px;height:36px;border-radius:50%;background:#34c759;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;flex-shrink:0">ER</div>
             <div style="overflow:hidden">
@@ -1802,6 +1810,21 @@
         { type:'out', text:'Muchas gracias, Javier. Este feedback significa muchísimo para mí. Ha sido un privilegio poder crecer y aportar en Motion UX con vosotros.' }
       ]
     },
+    laura: {
+      name: 'Laura López',
+      role: 'Digital Marketing Manager · BBVA Digital Banks',
+      color: '#ff375f',
+      initials: 'LL',
+      year: 'FY26',
+      messages: [
+        { type:'in', text:'Si tuviese que destacar algo de Isabel sería, sin duda, su creatividad y proactividad. Es una persona muy versátil, con muchísima capacidad para adaptarse a lo que necesita el proyecto y aportar siempre ideas nuevas. Tiene mucho criterio, es de esas personas que va más allá y piensa "out of the box" y, al mismo tiempo, entiende muy bien las guidelines y la línea visual de BBVA.' },
+        { type:'in', text:'También destacaría la calidad de su trabajo y la rapidez con la que ejecuta. Es capaz de sacar adelante piezas con mucho nivel y en tiempos muy ajustados. Además, toda la parte de vídeo y el uso de herramientas de IA están aportando muchísimo valor al proyecto. Está proponiendo constantemente nuevas formas de hacer contenido y detalles que hacen que la web tenga un valor diferencial.' },
+        { type:'in', text:'A nivel de trabajo en equipo, es muy fácil trabajar con ella. Tiene una actitud cercana, colaborativa y transparente, y además se implica mucho con otros equipos cuando hace falta, algo que aporta muchísimo al día a día del proyecto. Aunque trabaja de forma muy autónoma, también sabe cuándo pedir si lo necesita.' },
+        { type:'in', text:'Como comentario de mejora, creo que, por su capacidad y rapidez, muchas veces acaba asumiendo muchísimo volumen de trabajo. Me parece importante que siga encontrando espacios para priorizar y apoyarse en el equipo cuando sea necesario, para poder mantener el nivel tan alto que aporta.' },
+        { type:'in', text:'En general, considero que Isabel es un perfil clave dentro del equipo, con muchísimo potencial y muchísimo recorrido por delante.' },
+        { type:'out', text:'Muchas gracias, Laura. Este feedback me llena de energía y me motiva a seguir creciendo. ¡Ha sido un placer trabajar contigo!' }
+      ]
+    },
     jose: {
       name: 'José Paino',
       role: 'Nivel 9 · Accenture',
@@ -1830,7 +1853,7 @@
     var conv = fbConvs[id];
     if (!conv) return;
     // Update sidebar active state
-    ['javier','elena','jose','nuria','alvaro','claudia','soraya'].forEach(function(k) {
+    ['javier','laura','elena','jose','nuria','alvaro','claudia','soraya'].forEach(function(k) {
       var el = document.getElementById('fb-' + k);
       if (!el) return;
       el.classList.toggle('fb-active', k === id);
@@ -1856,7 +1879,7 @@
     area.scrollTop = area.scrollHeight;
   }
   // Init with alvaro
-  showFbConv('elena');
+  showFbConv('javier');
   </script>
 
   <!-- WALLPAPER PICKER -->
